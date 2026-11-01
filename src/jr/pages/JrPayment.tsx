@@ -102,7 +102,7 @@ export default function JrPayment() {
         key: orderData.key,
         amount: Math.round(price * 100),
         currency: 'INR',
-        name: 'SkillzRevo Junior 🎓',
+        name: 'Prepnow Junior 🎓',
         description: course.title,
         order_id: orderData.orderId,
         prefill: {

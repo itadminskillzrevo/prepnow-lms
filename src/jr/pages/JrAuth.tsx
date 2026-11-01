@@ -22,14 +22,14 @@ export default function JrAuth() {
     if (role === 'jr_admin') nav('/jr/admin', { replace: true });
     else if (role === 'jr_student') nav('/jr/dashboard', { replace: true });
     else if (role) {
-      toast.error('This account is not a SkillzRevo Jr account. Please use the main login.');
+      toast.error('This account is not a Prepnow Jr account. Please use the main login.');
       void signOut();
     }
   }, [user, role, authLoading, nav, signOut]);
 
   useEffect(() => {
     if (errorParam === 'not_jr') {
-      toast.error('This account is not a SkillzRevo Jr account. Please use the main login.');
+      toast.error('This account is not a Prepnow Jr account. Please use the main login.');
     }
   }, [errorParam]);
 
@@ -67,7 +67,7 @@ export default function JrAuth() {
               {mode === 'signup' ? 'Join the fun! 🎉' : 'Welcome back! 👋'}
             </h1>
             <p className="text-sm text-[hsl(var(--jr-muted))]">
-              {mode === 'signup' ? 'Create your SkillzRevo Jr account' : 'Login to continue learning'}
+              {mode === 'signup' ? 'Create your Prepnow Jr account' : 'Login to continue learning'}
             </p>
           </div>
 

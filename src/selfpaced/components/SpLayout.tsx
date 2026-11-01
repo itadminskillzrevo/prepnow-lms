@@ -38,7 +38,7 @@ export const SpLayout: React.FC = () => {
       <header style={{ background: 'hsl(var(--sp-surface))', borderBottom: '1px solid hsl(var(--sp-border))', position: 'sticky', top: 0, zIndex: 40 }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0.85rem 1.25rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <Link to="/selfpaced" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-            <img src="/logo.png" alt="SkillzRevo" style={{ height: 44, maxWidth: 180, objectFit: 'contain' }} />
+            <img src="/prepnowlogo.jpeg" alt="Prepnow" style={{ height: 44, maxWidth: 180, objectFit: 'contain' }} />
           </Link>
 
           <form
@@ -111,7 +111,7 @@ export const SpLayout: React.FC = () => {
       <footer style={{ borderTop: '1px solid hsl(var(--sp-border))', background: 'hsl(var(--sp-surface))', marginTop: '3rem', color: 'hsl(var(--sp-muted))', fontSize: '.88rem' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '2.5rem 1.5rem 1.5rem', display: 'grid', gap: '2rem', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
           <div>
-            <img src="/logo.png" alt="SkillzRevo" style={{ height: 40, marginBottom: '.75rem' }} />
+            <img src="/prepnowlogo.jpeg" alt="Prepnow" style={{ height: 40, marginBottom: '.75rem' }} />
             <p style={{ margin: 0, lineHeight: 1.6 }}>Learn at your own pace with expert-crafted self-paced programs designed to build real, industry-ready skills.</p>
           </div>
           <div>
@@ -135,15 +135,15 @@ export const SpLayout: React.FC = () => {
           <div>
             <h4 style={{ margin: '0 0 .6rem', color: 'hsl(var(--sp-foreground))', fontSize: '.95rem' }}>Company</h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '.35rem' }}>
-              <li><Link to="/" style={footLink}>SkillzRevo Home</Link></li>
-              <li><Link to="/home" style={footLink}>SkillzRevo Academy</Link></li>
-              <li><Link to="/jr" style={footLink}>SkillzRevo Jr</Link></li>
+              <li><Link to="/" style={footLink}>Prepnow Home</Link></li>
+              <li><Link to="/home" style={footLink}>Prepnow Academy</Link></li>
+              <li><Link to="/jr" style={footLink}>Prepnow Jr</Link></li>
               <li><a href="mailto:support@skillzrevo.com" style={footLink}>Contact Support</a></li>
             </ul>
           </div>
         </div>
         <div style={{ borderTop: '1px solid hsl(var(--sp-border))', padding: '1rem 1.5rem', textAlign: 'center' }}>
-          © {new Date().getFullYear()} SkillzRevo. All Rights Reserved.
+          © {new Date().getFullYear()} Prepnow. All Rights Reserved.
         </div>
       </footer>
     </div>

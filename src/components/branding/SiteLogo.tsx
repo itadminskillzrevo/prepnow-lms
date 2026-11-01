@@ -26,7 +26,7 @@ export const SiteLogo: React.FC<SiteLogoProps> = ({
 
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      <img src="/logo.png" alt="SkillzRevo" className={`${config} object-contain`} />
+      <img src="/prepnowlogo.jpeg" alt="Prepnow" className={`${config} object-contain`} />
     </div>
   );
 };

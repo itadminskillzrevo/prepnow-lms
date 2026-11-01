@@ -21,7 +21,7 @@ export interface InvoicePdfData {
   }>;
 }
 
-const BRAND = 'SkillzRevo';
+const BRAND = 'Prepnow';
 const BRAND_SUB = 'Learning Management System';
 
 const inr = (n: number) =>

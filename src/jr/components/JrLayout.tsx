@@ -25,7 +25,7 @@ export const JrLayout: React.FC<{ children: React.ReactNode }> = ({ children }) 
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
           {/* Logo */}
           <Link to="/jr" className="flex items-center gap-2 shrink-0">
-            <img src="/logo.png" alt="SkillzRevo" className="h-10 w-auto object-contain" />
+            <img src="/prepnowlogo.jpeg" alt="Prepnow" className="h-10 w-auto object-contain" />
           </Link>
 
           {/* Desktop nav */}
@@ -143,7 +143,7 @@ export const JrLayout: React.FC<{ children: React.ReactNode }> = ({ children }) 
             {/* Brand Column */}
             <div className="space-y-4 sm:col-span-2 lg:col-span-1">
               <div className="flex items-center gap-2">
-                <img src="/logo.png" alt="SkillzRevo" className="h-10 w-auto object-contain" />
+                <img src="/prepnowlogo.jpeg" alt="Prepnow" className="h-10 w-auto object-contain" />
               </div>
               <p className="text-[hsl(var(--jr-muted))] text-sm leading-relaxed">
                 Empowering young learners with fun, interactive courses designed just for school students.
@@ -228,7 +228,7 @@ export const JrLayout: React.FC<{ children: React.ReactNode }> = ({ children }) 
           {/* Bottom Bar */}
           <div className="mt-10 md:mt-12 pt-6 md:pt-8 border-t border-[hsl(var(--jr-border))] flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-[hsl(var(--jr-muted))] text-xs md:text-sm text-center md:text-left">
-              © {new Date().getFullYear()} SkillzRevo. All rights reserved.
+              © {new Date().getFullYear()} Prepnow. All rights reserved.
             </p>
             <div className="flex items-center gap-4 md:gap-6 text-xs md:text-sm text-[hsl(var(--jr-muted))]">
               <a className="hover:text-[hsl(var(--jr-primary))] transition-colors" href="https://academy.skillzrevo.com/PrivacyPolicy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>

@@ -31,7 +31,7 @@ const SpAdminAuth: React.FC = () => {
     <div className="sp-scope" style={{ minHeight: '100vh', display: 'grid', placeItems: 'center', padding: '2rem 1rem' }}>
       <div className="sp-card" style={{ padding: '2rem', width: '100%', maxWidth: 400 }}>
         <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-          <img src="/logo.png" alt="SkillzRevo" style={{ height: 48, objectFit: 'contain' }} />
+          <img src="/prepnowlogo.jpeg" alt="Prepnow" style={{ height: 48, objectFit: 'contain' }} />
         </div>
         <h2 style={{ margin: '0 0 1rem', textAlign: 'center' }}>Admin Login</h2>
         <form onSubmit={submit} style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>

@@ -13,12 +13,12 @@ export default function JrAbout() {
     <JrLayout>
       <section className="max-w-5xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[hsl(var(--jr-primary)/0.12)] text-[hsl(var(--jr-primary))]">About SkillzRevo Junior</span>
+          <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[hsl(var(--jr-primary)/0.12)] text-[hsl(var(--jr-primary))]">About Prepnow Junior</span>
           <h1 className="text-4xl sm:text-5xl font-extrabold mt-4 mb-4">
             Empowering the next generation of <span className="bg-gradient-to-r from-[hsl(var(--jr-primary))] to-[hsl(var(--jr-secondary))] bg-clip-text text-transparent">creators</span>
           </h1>
           <p className="text-lg text-[hsl(var(--jr-muted))] max-w-2xl mx-auto">
-            SkillzRevo Junior is a dedicated learning platform for school students (Class 6–12) to learn coding, AI, and creative technology through expert-led live classes and hands-on projects.
+            Prepnow Junior is a dedicated learning platform for school students (Class 6–12) to learn coding, AI, and creative technology through expert-led live classes and hands-on projects.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 gap-5">

@@ -1,6 +1,6 @@
 # Welcome to LMS
 
-**URL**: https://lms.skillzrevo.com/
+**Product**: Prepnow LMS
 
 ## How can I edit this code?
 

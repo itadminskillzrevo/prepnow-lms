@@ -23,7 +23,7 @@ export const CertificateShowcase: React.FC = () => {
             Recognised <span className="text-primary">Skilling Partner</span>
           </h2>
           <p className="text-muted-foreground text-sm md:text-lg max-w-2xl mx-auto px-2">
-            SkillzRevo is a certified and recognised skilling partner of IT-ITeS SSC Nasscom, ensuring industry-standard training and certifications.
+            Prepnow learners benefit from industry-standard training and certifications. The certificate shown records SkillzRevo Solutions Private Limited as a recognised skilling partner of IT-ITeS SSC Nasscom.
           </p>
         </motion.div>
 

@@ -1,9 +1,9 @@
 /* Jr (Class 6-12) playful design tokens — scoped to .jr-scope so they never leak into the main app */
 .jr-scope {
-  /* SkillzRevo brand palette (matches academyjunior.skillzrevo.com) */
-  --jr-primary: 217 91% 55%;        /* SkillzRevo blue */
+  /* Prepnow Junior brand palette */
+  --jr-primary: 217 91% 55%;        /* Primary blue */
   --jr-primary-foreground: 0 0% 100%;
-  --jr-secondary: 22 95% 55%;       /* SkillzRevo orange */
+  --jr-secondary: 22 95% 55%;       /* Accent orange */
   --jr-accent: 45 100% 55%;         /* sunny yellow */
   --jr-pink: 330 90% 65%;
   --jr-green: 150 70% 50%;

@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* SkillzRevo Brand Colors - Primary Blue #1D8FFF, Accent Orange #FF5E14 */
+    /* Prepnow brand colors - Primary Blue #1D8FFF, Accent Orange #FF5E14 */
     --background: 210 40% 98%;
     --foreground: 222 47% 11%;
 
@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    /* Primary - SkillzRevo Blue #1D8FFF = hsl(207, 100%, 56%) */
+    /* Primary blue #1D8FFF = hsl(207, 100%, 56%) */
     --primary: 207 100% 56%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 207 100% 70%;
@@ -28,7 +28,7 @@
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    /* Accent - SkillzRevo Orange #FF5E14 = hsl(18, 100%, 54%) */
+    /* Accent orange #FF5E14 = hsl(18, 100%, 54%) */
     --accent: 18 100% 54%;
     --accent-foreground: 0 0% 100%;
     --accent-glow: 18 100% 65%;

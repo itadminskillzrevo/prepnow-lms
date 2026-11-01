@@ -25,7 +25,7 @@ function buildSpInvoiceDoc(d: SpInvoiceData) {
   doc.setTextColor(255, 255, 255);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(20);
-  doc.text('SkillzRevo', 14, 14);
+  doc.text('Prepnow', 14, 14);
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(10);
   doc.text('Self-Paced Learning', 14, 21);

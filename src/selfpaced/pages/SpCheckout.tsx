@@ -97,7 +97,7 @@ const SpCheckout: React.FC = () => {
         key,
         amount: Math.round(Number(amount ?? total) * 100),
         currency: 'INR',
-        name: 'SkillzRevo Self-Paced',
+        name: 'Prepnow Self-Paced',
         description: `${items.length} course(s)`,
         order_id: orderId,
         prefill: { email: user.email, contact: phone, name: profile?.full_name || '' },

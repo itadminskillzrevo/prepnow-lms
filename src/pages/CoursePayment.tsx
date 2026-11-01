@@ -144,7 +144,7 @@ const CoursePayment: React.FC = () => {
         key: orderData.key,
         amount: Math.round(finalPrice * 100),
         currency: 'INR',
-        name: 'SkillzRevo LMS',
+        name: 'Prepnow LMS',
         description: `Enrollment: ${course.title}`,
         order_id: orderData.orderId,
         prefill: {

@@ -18,13 +18,13 @@ import {
 } from 'lucide-react';
 
 // ─── Brand token overrides ────────────────────────────────────────────────────
-// SkillzRevo brand:
+// Prepnow brand:
 //   Primary   → deep navy  #10233d  (institutional / credential tone)
 //   Accent    → warm orange #f97316  (CTA / energy)
 //   Design language: this is a *certifying body*, not a generic course shop —
 //   every recurring shape (dashed ring, mono "cert code" tags, circular badges)
 //   borrows from the vocabulary of an official certificate / seal, since that's
-//   the thing SkillzRevo is actually selling trust on (NASSCOM recognition).
+//   the thing Prepnow is actually selling trust on (NASSCOM recognition).
 // ─────────────────────────────────────────────────────────────────────────────
 
 const NAVY = '#10233d';
@@ -33,7 +33,7 @@ const NAVY_LIGHT = 'rgba(16,35,61,0.06)';
 const ORANGE_LIGHT = 'rgba(249,115,22,0.10)';
 
 const PARTNERSHIP_DETAILS = [
-  { icon: Building2, label: 'Organization', value: 'SkillzRevo Solutions Private Limited' },
+  { icon: Building2, label: 'Organization', value: 'PrepNOW Readiness Solutions' },
   { icon: BadgeCheck, label: 'Recognition Status', value: 'Recognised Skilling Partner' },
   { icon: Award, label: 'Certifying Authority', value: 'IT-ITeS SSC Nasscom' },
   { icon: CalendarDays, label: 'Validity Period', value: '24/11/2025 - 24/11/2026' },
@@ -567,8 +567,8 @@ const SpLanding: React.FC = () => {
                 </div>
                 <div className="spl-seal-core">
                   {/*<Award size={26} />
-                  <strong>SkillzRevo</strong>*/}
-                  <img src="/og-image.png" alt="logo"/>
+                  <strong>Prepnow</strong>*/}
+                  <img src="/prepnowlogo.jpeg" alt="Prepnow" />
                   {/*<span>Verified partner</span>*/}
                 </div>
               </div>
@@ -608,7 +608,7 @@ const SpLanding: React.FC = () => {
           <div className="spl-inner">
             <div className="spl-head spl-reveal">
               <div className="spl-eyebrow spl-eyebrow--orange">Why choose us</div>
-              <h2>What you actually get with <span className="spl-orange">SkillzRevo</span></h2>
+              <h2>What you actually get with <span className="spl-orange">Prepnow</span></h2>
               <p>Not just video lessons — a full loop of practice, proof, and people who answer.</p>
             </div>
             <div className="spl-why-grid">
@@ -635,7 +635,7 @@ const SpLanding: React.FC = () => {
               </div>
               <h2>Recognised <span className="spl-orange">Skilling Partner</span></h2>
               <p>
-                SkillzRevo is a certified and recognised skilling partner of IT-ITeS SSC Nasscom,
+                Prepnow learners benefit from the certified skilling expertise of SkillzRevo Solutions Private Limited, a recognised partner of IT-ITeS SSC Nasscom,
                 which is what backs every certificate issued through this platform.
               </p>
             </div>

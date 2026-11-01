@@ -48,7 +48,7 @@ export default function JrAdminAuth() {
               <ShieldCheck className="w-7 h-7" />
             </div>
             <h1 className="text-3xl font-extrabold mb-1">Admin Login</h1>
-            <p className="text-sm text-[hsl(var(--jr-muted))]">SkillzRevo Junior — Admin Panel</p>
+            <p className="text-sm text-[hsl(var(--jr-muted))]">Prepnow Junior — Admin Panel</p>
           </div>
 
           <form onSubmit={submit} className="space-y-3">
@@ -74,7 +74,7 @@ export default function JrAdminAuth() {
               Are you a student? Login here
             </Link>
             <Link to="/jr" className="block text-xs text-[hsl(var(--jr-muted))] hover:underline">
-              ← Back to SkillzRevo Junior
+              ← Back to Prepnow Junior
             </Link>
           </div>
         </div>

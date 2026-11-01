@@ -237,7 +237,7 @@ const SpAuth: React.FC = () => {
 
       <div className="sr-card">
         <div className="sr-logo-row">
-          <img src="/logo.png" alt="SkillzRevo" />
+          <img src="/prepnowlogo.jpeg" alt="Prepnow" />
         </div>
 
         <h2 className="sr-heading">{mode === 'signin' ? 'Welcome back' : 'Create your account'}</h2>

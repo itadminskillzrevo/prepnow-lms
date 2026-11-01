@@ -172,17 +172,17 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggle }) => {
           >
             {!collapsed && (
               <img
-              src="/sidebarlogo.png"
-              alt="SkillzRevo Logo"
+              src="/prepnowlogo.jpeg"
+              alt="Prepnow"
               className="h-12 w-auto object-contain"
               />
             )}  
             
             {collapsed && (
               <img
-              src="/sidebarlogoCollapsed.png"
-              alt="SkillzRevo Logo"
-              className="h-10 w-10 object-contain"
+              src="/prepnowlogo.jpeg"
+              alt="Prepnow"
+              className="h-10 w-auto object-contain"
               />
             )}
         </div>

@@ -392,7 +392,7 @@ const Index: React.FC = () => {
               Why Choose Us
             </span>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 md:mb-6 tracking-tight">
-              Why Choose <span className="text-primary">SkillzRevo</span>?
+              Why Choose <span className="text-primary">Prepnow</span>?
             </h2>
             <p className="text-muted-foreground text-sm md:text-lg max-w-2xl mx-auto px-2">
               Our platform offers everything you need to succeed in your learning journey.
@@ -750,7 +750,7 @@ const Index: React.FC = () => {
           {/* Bottom Bar */}
           <div className="mt-10 md:mt-12 pt-6 md:pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-muted-foreground text-xs md:text-sm text-center md:text-left">
-              © 2026 SkillzRevo. All rights reserved.
+              © 2026 Prepnow. All rights reserved.
             </p>
             <div className="flex items-center gap-4 md:gap-6 text-xs md:text-sm text-muted-foreground">
               <a className="hover:text-primary transition-colors" href="https://academy.skillzrevo.com/PrivacyPolicy">

@@ -87,7 +87,7 @@ const Auth: React.FC = () => {
           toast.error(error.message);
         }
       } else {
-        toast.success('Account created successfully! Welcome to SkillzRevo.');
+        toast.success('Account created successfully! Welcome to Prepnow.');
         navigate(from, { replace: true });
       }
     } catch (error) {
@@ -111,7 +111,7 @@ const Auth: React.FC = () => {
           <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-xl gradient-primary shadow-glow">
             <GraduationCap className="h-8 w-8 text-primary-foreground" />
           </div>
-          <CardTitle className="text-2xl font-display">SkillzRevo LMS</CardTitle>
+          <CardTitle className="text-2xl font-display">Prepnow LMS</CardTitle>
           <CardDescription>
             Learn, grow, and succeed with our world-class courses
           </CardDescription>

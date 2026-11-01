@@ -31,19 +31,19 @@ const Welcome = () => {
       glowClass: "from-teal-500/10 to-transparent",
       onClick: () => navigate("/jr"),
     },
-    // {
-    //   emoji: "🎓",
-    //   tag: "Available now",
-    //   tagClass: "bg-muted text-muted-foreground",
-    //   title: "Self-Paced Courses",
-    //   description: "Learn anytime, anywhere with flexible self-paced courses to help you upskill.",
-    //   cta: "Continue",
-    //   ctaClass: "text-violet-700 dark:text-violet-400",
-    //   iconBg: "bg-violet-50 dark:bg-violet-950",
-    //   arrowBg: "bg-violet-50 dark:bg-violet-950",
-    //   glowClass: "from-violet-500/10 to-transparent",
-    //   onClick: () => navigate("/selfpaced"),
-    // },
+    {
+      emoji: "🎓",
+      tag: "Available now",
+      tagClass: "bg-muted text-muted-foreground",
+      title: "Self-Paced Courses",
+      description: "Learn anytime, anywhere with flexible self-paced courses to help you upskill.",
+      cta: "Continue",
+      ctaClass: "text-violet-700 dark:text-violet-400",
+      iconBg: "bg-violet-50 dark:bg-violet-950",
+      arrowBg: "bg-violet-50 dark:bg-violet-950",
+      glowClass: "from-violet-500/10 to-transparent",
+      onClick: () => navigate("/selfpaced"),
+    },
   ];
 
   return (
@@ -72,7 +72,7 @@ const Welcome = () => {
           className="text-center mb-8"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Welcome to SkillzRevo
+            Welcome to Prepnow
           </h1>
           <p className="text-sm text-muted-foreground font-light">
             Tell us who you are — we'll personalise your learning journey.
@@ -80,7 +80,7 @@ const Welcome = () => {
         </motion.div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 max-w-7xl w-full min-h-[300px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 max-w-7xl w-full min-h-[300px]">
           {cards.map((card, idx) => (
             <motion.button
               key={card.title}
@@ -136,7 +136,7 @@ const Welcome = () => {
         >
           <div className="flex-1 h-px bg-border" />
           <span className="text-xs text-muted-foreground whitespace-nowrap">
-            © {new Date().getFullYear()} SkillzRevo. All rights reserved.
+            © {new Date().getFullYear()} Prepnow. All rights reserved.
           </span>
           <div className="flex-1 h-px bg-border" />
         </motion.div>

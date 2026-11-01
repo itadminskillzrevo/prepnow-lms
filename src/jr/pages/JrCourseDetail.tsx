@@ -341,7 +341,7 @@ export default function JrCourseDetail() {
               ) : null}
 
               <Section icon={GraduationCap} title="Course Author 👩‍🏫" color="text-[hsl(var(--jr-primary))]">
-                <p className="text-[hsl(var(--jr-muted))]">Curated by the SkillzRevo Junior team — passionate educators creating fun, kid-friendly learning experiences.</p>
+                <p className="text-[hsl(var(--jr-muted))]">Curated by the Prepnow Junior team — passionate educators creating fun, kid-friendly learning experiences.</p>
               </Section>
             </div>
           )}

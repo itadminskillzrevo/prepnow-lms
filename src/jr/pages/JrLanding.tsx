@@ -50,7 +50,7 @@ export default function JrLanding() {
             </h1>
 
             <p className="text-base md:text-xl text-[hsl(var(--jr-muted))] mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed px-2">
-              Join SkillzRevo Junior — a magical place where school students explore subjects with games,
+              Join Prepnow Junior — a magical place where school students explore subjects with games,
               quizzes, badges, and live mentors.
             </p>
 
@@ -104,7 +104,7 @@ export default function JrLanding() {
               Why Choose Us
             </span>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 md:mb-6 tracking-tight">
-              Why Kids Love <span className="text-[hsl(var(--jr-primary))]">SkillzRevo Jr</span>?
+              Why Kids Love <span className="text-[hsl(var(--jr-primary))]">Prepnow Jr</span>?
             </h2>
             <p className="text-[hsl(var(--jr-muted))] text-sm md:text-lg max-w-2xl mx-auto px-2">
               Everything designed to make learning your favourite hobby.
