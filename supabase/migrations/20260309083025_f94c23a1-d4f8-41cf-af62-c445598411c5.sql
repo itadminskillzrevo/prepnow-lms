@@ -1,0 +1,1 @@
+ALTER TABLE public.courses ADD COLUMN what_you_will_learn text[] DEFAULT NULL;

@@ -1,0 +1,2 @@
+ALTER TABLE public.enrollments DROP CONSTRAINT enrollments_batch_id_fkey;
+ALTER TABLE public.enrollments ADD CONSTRAINT enrollments_batch_id_fkey FOREIGN KEY (batch_id) REFERENCES public.batches(id) ON DELETE SET NULL;

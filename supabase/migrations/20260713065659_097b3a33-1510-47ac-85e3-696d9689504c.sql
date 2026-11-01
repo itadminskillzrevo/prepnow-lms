@@ -1,0 +1,1 @@
+ALTER TABLE public.selfpaced_enrollments ADD COLUMN IF NOT EXISTS source text;

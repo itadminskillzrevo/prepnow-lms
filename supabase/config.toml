@@ -1,0 +1,25 @@
+project_id = "ftiykbdgyqgorzflisdr"
+
+[functions.create-user]
+verify_jwt = false
+
+[functions.bulk-import-users]
+verify_jwt = false
+
+[functions.reset-user-password]
+verify_jwt = false
+
+[functions.create-google-meet]
+verify_jwt = false
+
+[functions.generate-scheduled-classes]
+verify_jwt = false
+
+[functions.google-drive]
+verify_jwt = false
+
+[functions.send-email]
+verify_jwt = false
+
+[functions.change-user-password]
+verify_jwt = false

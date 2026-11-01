@@ -1,0 +1,86 @@
+/* Jr (Class 6-12) playful design tokens — scoped to .jr-scope so they never leak into the main app */
+.jr-scope {
+  /* SkillzRevo brand palette (matches academyjunior.skillzrevo.com) */
+  --jr-primary: 217 91% 55%;        /* SkillzRevo blue */
+  --jr-primary-foreground: 0 0% 100%;
+  --jr-secondary: 22 95% 55%;       /* SkillzRevo orange */
+  --jr-accent: 45 100% 55%;         /* sunny yellow */
+  --jr-pink: 330 90% 65%;
+  --jr-green: 150 70% 50%;
+  --jr-purple: 265 85% 62%;
+  --jr-bg: 250 100% 99%;
+  --jr-surface: 0 0% 100%;
+  --jr-foreground: 222 47% 14%;
+  --jr-muted: 220 14% 46%;
+  --jr-border: 220 30% 91%;
+
+  --jr-radius: 1.25rem;
+  --jr-shadow-pop: 0 12px 0 -4px hsl(var(--jr-primary) / 0.2), 0 20px 40px -10px hsl(var(--jr-primary) / 0.3);
+  --jr-shadow-soft: 0 8px 30px -8px hsl(220 40% 30% / 0.15);
+
+  font-family: 'Nunito', 'Fredoka', system-ui, -apple-system, sans-serif;
+  background:
+    radial-gradient(ellipse 70% 55% at 75% -10%, hsl(var(--jr-purple) / 0.18) 0%, transparent 65%),
+    radial-gradient(ellipse 55% 50% at -5% 85%, hsl(var(--jr-secondary) / 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 50% at 50% 110%, hsl(var(--jr-green) / 0.15) 0%, transparent 60%),
+    linear-gradient(135deg, #f5f0ff 0%, #fff0fb 30%, #fff8ee 60%, #edfff8 100%);
+  color: hsl(var(--jr-foreground));
+  min-height: 100vh;
+}
+
+.jr-scope .jr-card {
+  background: hsl(var(--jr-surface));
+  border: 2px solid hsl(var(--jr-border));
+  border-radius: var(--jr-radius);
+  box-shadow: var(--jr-shadow-soft);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.jr-scope .jr-card:hover { transform: translateY(-4px); box-shadow: var(--jr-shadow-pop); }
+
+.jr-scope .jr-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  padding: .85rem 1.5rem; border-radius: 999px; font-weight: 700;
+  background: linear-gradient(135deg, hsl(var(--jr-primary)), hsl(var(--jr-pink)));
+  color: hsl(var(--jr-primary-foreground));
+  box-shadow: 0 6px 0 hsl(var(--jr-primary) / 0.4), 0 12px 24px -8px hsl(var(--jr-primary) / 0.45);
+  border: none; cursor: pointer; transition: transform .15s ease, box-shadow .15s ease;
+}
+.jr-scope .jr-btn:hover { transform: translateY(-2px); }
+.jr-scope .jr-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 hsl(var(--jr-primary) / 0.4); }
+
+.jr-scope .jr-btn-secondary {
+  background: hsl(var(--jr-surface));
+  color: hsl(var(--jr-primary));
+  border: 2px solid hsl(var(--jr-primary) / 0.4);
+  box-shadow: 0 6px 0 hsl(var(--jr-primary) / 0.15);
+}
+
+.jr-scope .jr-input {
+  width: 100%;
+  padding: .9rem 1.1rem;
+  border-radius: 1rem;
+  border: 2px solid hsl(var(--jr-border));
+  background: hsl(var(--jr-surface));
+  color: hsl(var(--jr-foreground));
+  font-size: 1rem;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.jr-scope .jr-input:focus {
+  outline: none;
+  border-color: hsl(var(--jr-primary));
+  box-shadow: 0 0 0 4px hsl(var(--jr-primary) / 0.15);
+}
+
+.jr-scope .jr-chip {
+  display: inline-flex; align-items: center; gap: .35rem;
+  padding: .35rem .8rem; border-radius: 999px; font-weight: 600; font-size: .8rem;
+  background: hsl(var(--jr-accent) / 0.2); color: hsl(35 90% 30%);
+}
+
+.jr-scope h1, .jr-scope h2, .jr-scope h3 { font-family: 'Fredoka', 'Baloo 2', sans-serif; font-weight: 700; }
+
+@keyframes jr-float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-12px) } }
+.jr-scope .jr-float { animation: jr-float 4s ease-in-out infinite; }
+
+@keyframes jr-wobble { 0%,100% { transform: rotate(-3deg) } 50% { transform: rotate(3deg) } }
+.jr-scope .jr-wobble { animation: jr-wobble 3s ease-in-out infinite; }
